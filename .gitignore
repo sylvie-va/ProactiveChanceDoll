@@ -1,0 +1,13 @@
+# Build output
+**/bin/
+**/obj/
+
+# Third-Party Modding DLLs
+**/libs/
+
+# RoR2 / Unity DLLs 
+**/game-libs/
+
+# VSCode editor files
+.vs/
+.vscode/

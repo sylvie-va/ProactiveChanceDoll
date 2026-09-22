@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>8</LangVersion>
+    <AssemblyName>ProactiveChanceDoll</AssemblyName>
+    <RootNamespace>ProactiveChanceDoll</RootNamespace>
+  </PropertyGroup>
+
+  <ItemDefinitionGroup>
+    <Reference>
+      <Private>false</Private>
+    </Reference>
+  </ItemDefinitionGroup>
+
+  <ItemGroup>
+    <!-- Redistributable DLLs -->
+    <Reference Include="BepInEx">
+      <HintPath>$(MSBuildThisFileDirectory)libs\BepInEx.dll</HintPath>
+    </Reference>
+
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+      <HintPath>$(MSBuildThisFileDirectory)libs\com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+    </Reference>
+
+    <Reference Include="MMHOOK_RoR2">
+      <HintPath>$(MSBuildThisFileDirectory)libs\MMHOOK_RoR2.dll</HintPath>
+    </Reference>
+
+    <Reference Include="R2API">
+      <HintPath>$(MSBuildThisFileDirectory)libs\R2API.dll</HintPath>
+    </Reference>
+    
+    <Reference Include="R2API.Core">
+      <HintPath>$(MSBuildThisFileDirectory)libs\R2API.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Non-distributable DLLs -->
+    <Reference Include="HGCSharpUtils">
+      <HintPath>$(MSBuildThisFileDirectory)game-libs\HGCSharpUtils.dll</HintPath>
+    </Reference>
+
+    <Reference Include="RoR2">
+      <HintPath>$(MSBuildThisFileDirectory)game-libs\RoR2.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine">
+      <HintPath>$(MSBuildThisFileDirectory)game-libs\UnityEngine.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(MSBuildThisFileDirectory)game-libs\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>$(MSBuildThisFileDirectory)game-libs\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
