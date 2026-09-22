@@ -1,5 +1,5 @@
 # Proactive Chance Dolls
-No more foregoing Shrines of Chance because one person in your lobby has a Chance Doll. Nor will you be forced to buy out Shrines of Chance because you have the Chance Dolls.
+No more foregoing Shrines of Chance because one person in your lobby has a Chance Doll. Nor will you be forced to buy out Shrines of Chance because you're the only one with a Chance Doll.
 
 # Functionality
 When using a Shrine of Chance, a check is made to see if any players in the lobby have Chance Dolls and, if they do, Chance Dolls are temporarily placed into your inventory and then removed.
