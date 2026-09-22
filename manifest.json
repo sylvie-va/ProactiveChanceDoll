@@ -1,7 +1,7 @@
 {
   "name": "ProactiveChanceDoll",
   "version_number": "1.0.0",
-  "website_url": "https://github.com/sylvie/ProactiveChanceDoll",
+  "website_url": "https://github.com/sylvie-va/ProactiveChanceDoll",
   "description": "Combines every player's Chance Dolls for Shrine of Chance rolls.",
   "dependencies": [
     "bbepis-BepInExPack-5.4.2122",
