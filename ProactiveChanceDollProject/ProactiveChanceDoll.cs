@@ -5,7 +5,7 @@ using R2API.Utils;
 
 namespace ProactiveChanceDoll
 {
-    [BepInPlugin("com.sylvie.proactivechancedoll", "Proactive Chance Doll", "1.0.0")]
+    [BepInPlugin("sylvie.proactivechancedoll", "Proactive Chance Doll", "1.0.0")]
     [NetworkCompatibility(CompatibilityLevel.NoNeedForSync, VersionStrictness.DifferentModVersionsAreOk)]
     public sealed class ProactiveChanceDoll : BaseUnityPlugin
     {
