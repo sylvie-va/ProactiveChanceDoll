@@ -6,14 +6,20 @@ namespace ProactiveChanceDoll
 {
     internal static class ChanceDollSharingHooks
     {
+        private static bool hooked = false;
+        
         internal static void Hook()
         {
+            if (hooked) {return;}
             On.RoR2.ShrineChanceBehavior.AddShrineStack += AddShrineStack; // hook to default shrine behaviour.
+            hooked = true;
         }
 
         internal static void UnHook()
         {
+            if (!hooked) {return;}
             On.RoR2.ShrineChanceBehavior.AddShrineStack -= AddShrineStack;
+            hooked = false
         }
 
         private static void AddShrineStack(On.RoR2.ShrineChanceBehavior.orig_AddShrineStack orig,
