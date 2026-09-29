@@ -19,7 +19,7 @@ namespace ProactiveChanceDoll
         {
             if (!hooked) {return;}
             On.RoR2.ShrineChanceBehavior.AddShrineStack -= AddShrineStack;
-            hooked = false
+            hooked = false;
         }
 
         private static void AddShrineStack(On.RoR2.ShrineChanceBehavior.orig_AddShrineStack orig,
